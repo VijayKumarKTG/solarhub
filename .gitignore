@@ -1,0 +1,27 @@
+
+# Created by https://www.toptal.com/developers/gitignore/api/node,dotenv,expressionengine
+# Edit at https://www.toptal.com/developers/gitignore?templates=node,dotenv,expressionengine
+
+### dotenv ###
+.env
+
+### ExpressionEngine ###
+.DS_Store
+
+### Node ###
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env.test
+.env*.local
+
+# End of https://www.toptal.com/developers/gitignore/api/node,dotenv,expressionengine
