@@ -34,3 +34,16 @@
 npm install -g nodemon
 ```
 > If you find out errors like `'git' is not a command` or `'npm' is not a command` although you have downloaded the Git and NodeJS, then follow this link which will help you to add system environmental variables. [Git](https://stackoverflow.com/questions/26620312/git-installing-git-in-path-with-github-client-for-windows) and [NPM](https://stackoverflow.com/questions/27864040/fixing-npm-path-in-windows-8-and-10#:~:text=Search%20for%20Environment%20Variables%20in,nodejs%5Cnode_modules%5Cnpm%5Cbin)
+---
+## Some Git Commands Specific to this projects
+
+* To commit your local changes, first add your changes into git **`git add .`**
+* Then, `git commit -m <message>`. Please write a commit message at the `<message>` place.
+* To pull from upstream: `git pull upstream main`
+* To push your code to origin: `git push origin main`
+* To make a **Pull Request**, follow the below steps.
+  1. Push your code to the origin. [ The second git push command]
+  2. Go to your [Github](https://github.com) page and there you will see a message like 'main is `<number>` commit ahead of VijayKumarKTG/solarhub'.
+  3. You will find a green button beside it. Click it and you will see "Make a pull request". Choose that option and you will redirect to my repo.
+  4. There you will see a text box. Write the pull request there like what changes are there in the PR(pull request) and you can rite message there.
+  5. Then, click the green button at below to submit the PR.
